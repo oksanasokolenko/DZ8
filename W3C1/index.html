@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,41 +7,49 @@
     <title>Document</title>
 </head>
 <body>
-<div class="hidden">
-<div class="main">
+<div class="wrapper">
     <header class="main-header">
-        <h1>W3.CSS.Demo</h1>
+        <div class="container">
+            <h1>W3.CSS.Demo</h1>
 
-        <div>Revise this responsive page!</div>
+            <p>Revise this responsive page!</p>
+        </div>
     </header>
-    <div class="container">
-        <article class="first">
-            <h2>London</h2>
+    <main>
+        <div class="container">
+            <article class="column">
+                <h2>London</h2>
 
-            <p>London is the capital city of England.</p>
+                <p>London is the capital city of England.</p>
 
-            <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million
-                inhabitants.</p>
-        </article>
-        <article class="second">
-            <h2>Paris</h2>
+                <img src="img/london-01.jpg" alt="Big Ben">
+                <img src="img/london-02.jpg" alt="Big Ben">
 
-            <p>Paris is the capital of France.</p>
+                <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million
+                    inhabitants.</p>
+            </article>
+            <article class="column">
+                <h2>Paris</h2>
 
-            <p>The Paris area is one of the largest population centers in Europe, with more than 12 million
-                inhabitants.</p>
-        </article>
-        <article class="third">
-            <h2>Tokyo</h2>
+                <p>Paris is the capital of France.</p>
+                <img src="img/paris-01.jpg" alt="louvre"/>
+                <img src="img/paris-02.jpg" alt="eifeel"/>
 
-            <p> Tokyo is the capital of Japan.</p>
+                <p>The Paris area is one of the largest population centers in Europe, with more than 12 million
+                    inhabitants.</p>
+            </article>
+            <article class="column">
+                <h2>Tokyo</h2>
 
-            <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
-        </article>
+                <p> Tokyo is the capital of Japan.</p>
+                <img src="img/tokyo-01.jpg" alt="tokyo1"/>
+                <img src="img/tokyo-02.jpg" alt="tokyo2"/>
 
+                <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+            </article>
+        </div>
 
-    </div>
-</div>
+    </main>
 </div>
 </body>
 </html>
